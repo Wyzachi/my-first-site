@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой первый сайт</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    h1 { color: #333; font-size: 2rem; margin-bottom: 10px; }
+    .subtitle { color: #764ba2; font-weight: bold; margin-bottom: 20px; }
+    p { color: #555; line-height: 1.6; margin-bottom: 15px; }
+    .badge {
+      display: inline-block;
+      background: #eef0ff;
+      color: #667eea;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin: 4px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 28px;
+      background: #667eea;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #764ba2; }
+    footer { margin-top: 25px; font-size: 0.8rem; color: #999; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>🚀 Привет, мир!</h1>
+    <p class="subtitle">Это мой первый сайт на GitHub Pages</p>
+    <p>Я написал эту страницу на чистом HTML и CSS, загрузил её в репозиторий GitHub и опубликовал в интернете. Теперь она доступна всем по публичной ссылке!</p>
+    <div>
+      <span class="badge">HTML</span>
+      <span class="badge">CSS</span>
+      <span class="badge">GitHub Pages</span>
+    </div>
+    <a class="btn" href="https://github.com" target="_blank">Мой GitHub</a>
+    <footer>© 2026 · Сделано с ❤️ и опубликовано на GitHub Pages</footer>
+  </main>
+</body>
+</html>
